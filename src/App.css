@@ -1,0 +1,20 @@
+.App {
+  padding: 50px;
+  display: -ms-flexbox;
+  -ms-flex-pack: distribute;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  font-size: 14px;
+}
+
+.App--loading{
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -ms-flex-align: center;
+  height: 100%;
+}
