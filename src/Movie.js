@@ -55,6 +55,7 @@ function MoviePoster({poster, alt}){
 
   function Movie({title, poster, genres, synopsis}){
       return(
+        
         <div className="Movie">
             <div className="Movie__Columns">
                 <MoviePoster poster={poster} alt={title} />
@@ -67,7 +68,7 @@ function MoviePoster({poster, alt}){
                 <div className="Movie__Synopsis">
                     <LinesEllipsis 
                         text = {synopsis}
-                        maxLine = '3'
+                        maxLine = '4'
                         ellipsis = '...'
                         trimRight
                         basedOn = 'letters'
