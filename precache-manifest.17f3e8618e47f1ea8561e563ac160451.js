@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/LearningReact/static/js/runtime~main.7d7ad844.js"
   },
   {
-    "revision": "2857620ff0651c2a4bad",
-    "url": "/LearningReact/static/js/main.92309811.chunk.js"
+    "revision": "9910cb8847d96646e004",
+    "url": "/LearningReact/static/js/main.4d8c939d.chunk.js"
   },
   {
     "revision": "a35ee8e669eeb51c0deb",
     "url": "/LearningReact/static/js/2.639102df.chunk.js"
   },
   {
-    "revision": "2857620ff0651c2a4bad",
-    "url": "/LearningReact/static/css/main.59ec65de.chunk.css"
+    "revision": "9910cb8847d96646e004",
+    "url": "/LearningReact/static/css/main.daada8fd.chunk.css"
   },
   {
-    "revision": "8c1e96ca1e2e9515ef73c8860d02a82e",
+    "revision": "d20707211b4536c67c83d302a4f11fa8",
     "url": "/LearningReact/index.html"
   }
 ];
