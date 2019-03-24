@@ -1,6 +1,6 @@
 .Movie{
     background-color:white;
-    width:40%;
+    width:30%;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: justify;
@@ -18,7 +18,7 @@
 }
 
 .Movie__Column{
-    width:30%;
+    
     -o-text-overflow: ellipsis;
         text-overflow: ellipsis;
     -webkit-box-sizing: border-box;
@@ -27,7 +27,7 @@
 
 .Movie__Column:last-child{
     padding:20px 0;
-    width:60%;
+    width:20%;
 }
 
 .Movie h1{
@@ -40,7 +40,7 @@
     display: flex;
     -ms-flex-wrap:wrap;
         flex-wrap:wrap;
-    margin-bottom:20px;
+    margin-bottom:25px;
 }
 
 .Movie__Genres .Movie__Genre{

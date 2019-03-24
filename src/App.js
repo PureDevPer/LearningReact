@@ -82,17 +82,17 @@ class App extends Component {
   _getMovies = async () => {
     // After _callApi() runs, this.setState will execute
     const movies = await this._callApi()
-    const movies2 = await this._callApi2()
+    //const movies2 = await this._callApi2()
     this.setState({
       movies,
-      movies2
+      //movies2
     })
   }
 
 
 
   _callApi = () => {
-    return fetch('https://yts.am/api/v2/list_movies.json?sort_by=download_count')
+    return fetch('https://yts.am/api/v2/list_movies.json?sort_by=download_count&limit=42')
     .then(potato => potato.json() )
     //.then(json => console.log(json))
     .then(json => json.data.movies)
@@ -100,7 +100,7 @@ class App extends Component {
   }
 
   _callApi2 = () => {
-    return fetch('https://yts.am/api/v2/list_movies.json?sort_by=rating')
+    return fetch('https://yts.am/api/v2/list_movies.json?sort_by=date_added')
     .then(potato => potato.json() )
     //.then(json => console.log(json))
     .then(json => json.data.movies)
